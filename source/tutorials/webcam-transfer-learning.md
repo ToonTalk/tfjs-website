@@ -382,7 +382,7 @@ model.compile({optimizer: optimizer, loss: 'categoricalCrossentropy'});
 Here is where we construct our optimizer, define our loss function, and compile
 the model to prepare it to be trained.
 
-We're using the `Adam` optimizer here, which emperically worked well for this
+We're using the `Adam` optimizer here, which empirically worked well for this
 task. Our loss function, `categoricalCrossentropy`, will measure the error
 between the predicted probability distribution over our 4 classes and the true
 label (the one-hot encoding label).
